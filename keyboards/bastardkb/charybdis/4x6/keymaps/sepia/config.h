@@ -16,6 +16,22 @@
  */
 #pragma once
 
+#define MASTER_LEFT
+
+#define _QWERTY 0
+#define _SYM_1 1
+#define _SYM_2 2
+#define _FN 3
+#define _NUM 4
+#define _NAV 5
+#define _MEDIA 6
+
+#define TAPPING_TOGGLE 2
+#define TAPPING_FORCE_HOLD_PER_KEY
+#define TAPPING_TERM_PER_KEY
+#define TAPPING_TERM 100
+#undef PERMISSIVE_HOLD
+
 #ifdef VIA_ENABLE
 /* VIA configuration. */
 #    define DYNAMIC_KEYMAP_LAYER_COUNT 4
