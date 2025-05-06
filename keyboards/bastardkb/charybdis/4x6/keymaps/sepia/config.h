@@ -16,14 +16,8 @@
  */
 #pragma once
 
-// Explicitly set master as left side
 #define MASTER_LEFT
-// Disable EEPROM handedness to avoid conflicts
-#define EE_HANDS_NOT_USED
-// Fallback to USB detection if needed
-#define SPLIT_USB_DETECT
 
-// Layer definitions
 #define _QWERTY 0
 #define _SYM_1 1
 #define _SYM_2 2
@@ -32,7 +26,6 @@
 #define _NAV 5
 #define _MEDIA 6
 
-// Tapping configuration
 #define TAPPING_TOGGLE 2
 #define TAPPING_FORCE_HOLD_PER_KEY
 #define TAPPING_TERM_PER_KEY
