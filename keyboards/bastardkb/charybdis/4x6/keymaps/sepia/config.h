@@ -21,7 +21,7 @@
 #define _QWERTY 0
 #define _SYM_1 1
 #define _SYM_2 2
-#define _FN 3
+#define LAYER_POINTER 3
 #define _NUM 4
 #define _NAV 5
 #define _MEDIA 6
@@ -34,7 +34,7 @@
 
 #ifdef VIA_ENABLE
 /* VIA configuration. */
-#    define DYNAMIC_KEYMAP_LAYER_COUNT 4
+#    define DYNAMIC_KEYMAP_LAYER_COUNT 7
 #endif // VIA_ENABLE
 
 #ifndef __arm__

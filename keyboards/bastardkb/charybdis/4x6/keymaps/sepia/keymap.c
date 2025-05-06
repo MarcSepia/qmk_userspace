@@ -165,7 +165,6 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
 		case LT(_NUM, KC_TAB):
 		case LT(_SYM_1, KC_ENTER):
 		case LT(_SYM_2, KC_BSPC):
-		case LT(_FN, KC_DEL):
 			return 180;
 		default:
 			return 100;
